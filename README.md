@@ -15,16 +15,16 @@ This project focuses on designing and implementing a 4-Bit Arithmetic Logic Unit
 
 ### Operations Performed
 
-| Select (sel) | Operation |
-|-------------|-----------|
-| 000 | Addition (A + B) |
-| 001 | Subtraction (A - B) |
-| 010 | Bitwise AND (A & B) |
-| 011 | Bitwise OR (A \| B) |
-| 100 | Bitwise XOR (A ^ B) |
-| 101 | Bitwise NOT (~A) |
-| 110 | Left Shift (A << 1) |
-| 111 | Right Shift (A >> 1) |
+| Select (sel) | Operation            |
+| ------------ | -------------------- |
+| 000          | Addition (A + B)     |
+| 001          | Subtraction (A - B)  |
+| 010          | Bitwise AND (A & B)  |
+| 011          | Bitwise OR (A | B)   |
+| 100          | Bitwise XOR (A ^ B)  |
+| 101          | Bitwise NOT (~A)     |
+| 110          | Left Shift (A << 1)  |
+| 111          | Right Shift (A >> 1) |
 
 ### Tools Used
 
@@ -40,15 +40,13 @@ This project focuses on designing and implementing a 4-Bit Arithmetic Logic Unit
 * `alu_4bitwaveform.png` – Contains the simulation waveform output.
 
 ### Simulation Results
+
 The ALU was successfully simulated for all arithmetic and logical operations. The output waveform verified the correct operation of addition, subtraction, AND, OR, XOR, NOT, left shift, and right shift functions.
 
 ### Waveform
-
-Upload the waveform screenshot as **alu_4bitwaveform.png** and add it below:
-
-```markdown
 ![ALU Waveform](alu_4bitwaveform.png)
 
-###Conclusion
+### Conclusion
 
-The 4-Bit ALU was successfully designed and implemented using Verilog HDL. Simulation results confirmed the correct functionality of all arithmetic and logical operations. This project provides a strong foundation for understanding ALU design, digital logic circuits, and VLSI system development.
+The 4-Bit ALU was successfully designed and implemented using Verilog HDL. The simulation results verified the correct functionality of arithmetic operations such as addition and subtraction, as well as logical operations including AND, OR, XOR, NOT, and shift operations. This project provided practical experience in digital design, simulation, and verification, which are fundamental concepts in VLSI design.
+
