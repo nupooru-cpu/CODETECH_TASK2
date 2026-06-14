@@ -48,3 +48,7 @@ Upload the waveform screenshot as **alu_4bitwaveform.png** and add it below:
 
 ```markdown
 ![ALU Waveform](alu_4bitwaveform.png)
+
+###Conclusion
+
+The 4-Bit ALU was successfully designed and implemented using Verilog HDL. Simulation results confirmed the correct functionality of all arithmetic and logical operations. This project provides a strong foundation for understanding ALU design, digital logic circuits, and VLSI system development.
